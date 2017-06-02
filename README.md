@@ -12,7 +12,7 @@ In this project, I will detect lane lines in images using Python and OpenCV.
 
 To complete the project, I make two files:
 - Project code as html and jupyter notebook.
-- A brief write up explaining my solution [code](https://github.com/hirotoshi8/CarND-LaneLines-P1/blob/master/P1.ipynb) and the [writeup](https://github.com/hirotoshi8/CarND-LaneLines-P1/blob/master/writeup_p_lane_line.md).
+- A brief write up explaining my solution [code](https://github.com/hirotoshi8/CarND-LaneLines-P1/blob/master/P1.ipynb) and the [writeup_p_lane_line.md](https://github.com/hirotoshi8/CarND-LaneLines-P1/blob/master/writeup_p_lane_line.md).
 
 The code file is called P1.ipynb and the writeup is writeup_p_lane_line.md 
 
