@@ -68,5 +68,3 @@ Another shortcoming could be occured by the changed direction of the cars agains
 A possible improvement would be to use the method of machine learning, clursuring and adaptive filterm such as kalman filter.
 
 In this project, I set some parameters of filters manually. However, in the real world, the camera images is often changed by sun, shadow of the bridge, buildings and tunnels and so on. This is why I want to set the paramters automatically with the method of machine learning and maybe adaptive filter is good way.
-
-Another potential improvement could be to ...
