@@ -33,7 +33,7 @@ Based on the concept, my pipeline consisted of 5 steps.
 
 2. Removing the spike noise
 
-3. Edge detection with Canny edge filter.
+3. Edge detection with Canny edge detector.
 
 ![alt text][image2]
 
@@ -56,15 +56,17 @@ Then, I calculate the slope of the left and right lines and extend the lines wit
 
 ## 2. Potential shortcomings with this pipeline
 
-One potential shortcoming would be what would happen when the road condition is so bad.
+One potential shortcoming would be what would happen when the road and wether condition is changed, which means the camera image change.
 
-In step3, I mannually set the parameter of the Canny edge filter and it's unstable due to the road condition, which means the gap of brightness between the roads and lane line is so small due to the bad roads condition. 
+Especialy in pipeline step3 and step5, I mannually set the parameter of the algorithm, such as Canny edge detector. Depending on the world, potentialy this pipeline could not work at all. This is because the optimized parameter changes depending on the condition of the weather, roads and so on. So, it's difficult to set the best parameter to  
 
-Another shortcoming could be occured by the direction of the cars against the lane line. I remove the vertical line as noise. SO, if the car heading is changed,this proess cannot detect the lane line. 
+Another shortcoming could be occured by the changed direction of the cars against the lane line. I remove the Horizontal line as noise. So, if the car heading is changed, this proess could not detect the lane line. 
 
 
 ## 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to use adaptive filterm such as kalman filter.
+A possible improvement would be to use the method of machine learning, clursuring and adaptive filterm such as kalman filter.
+
+In this project, I set some parameters of filters manually. However, in the real world, the camera images is often changed by sun, shadow of the bridge, buildings and tunnels and so on. This is why I want to set the paramters automatically with the method of machine learning and maybe adaptive filter is good way.
 
 Another potential improvement could be to ...
